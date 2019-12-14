@@ -142,6 +142,8 @@ The zoos need a list of all their animal's names (animal_name only) converted to
 */
 
 const lowCaseAnimalNames = [];
+zooAnimals.forEach(name => lowCaseAnimalNames.push(name.animal_name.toLowerCase()));
+
 console.log(lowCaseAnimalNames);
 
 /* Request 3: .filter() 
@@ -150,6 +152,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 
 */
 const lowPopulationAnimals = [];
+
 console.log(lowPopulationAnimals);
 
 /* Request 4: .reduce() 
@@ -158,6 +161,7 @@ The zoos need to know their total animal population across the United States. Fi
 
 */
 const populationTotal = 0;
+
 console.log(populationTotal);
 
 
